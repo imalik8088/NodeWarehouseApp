@@ -1,9 +1,21 @@
 {
-  "name": "application-name",
+  "name": "WarehouseApp",
+  "description": "A small application for a warehouse scenario",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
     "express": "3.3.8",
-    "jade": "*"
+    "jade": "*",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.1",
+    "request": "~2.27.0"
+  },
+  "author": "Akhlaq Malik",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iNeedCode/NodeWarehouseApp"
   }
 }
