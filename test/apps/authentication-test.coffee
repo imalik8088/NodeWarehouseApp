@@ -13,5 +13,6 @@ describe "authentication", ->
 			request options, (err, response, _body) ->
 				body = _body
 				done()
-		it "has user field", ->
-			assert.ok /user/.test(body)
+		it "has title", ->
+			console.log body
+			assert.hasTag body, '//head/title', "Warehouse - Login"
